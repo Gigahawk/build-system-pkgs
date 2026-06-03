@@ -313,7 +313,7 @@ setuptools-rust = [
 setuptools-scm = [
     "setuptools",
     "tomli",
-    "vcs-versioning",
+    #"vcs-versioning",
 ]
 toml = [
     "setuptools",
@@ -345,9 +345,9 @@ typing-inspection = [
 uv-dynamic-versioning = [
     "hatchling",
 ]
-vcs-versioning = [
-    "setuptools",
-]
+#vcs-versioning = [
+#    "setuptools",
+#]
 versioneer = [
     "setuptools",
 ]
